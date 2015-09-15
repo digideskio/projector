@@ -18,6 +18,7 @@ projector_setup <- function(sub_projects = 1) {
         dir.create(paste(root, "/data", sep = ""))
         dir.create(paste(root, "/documents", sep = ""))
         dir.create(paste(root, "/experiment", sep = ""))
+        dir.create(paste(root, "/experiment/includes", sep = ""))
         dir.create(paste(root, "/reports", sep = ""))
         dir.create(paste(root, "/visuals", sep = ""))
     }
