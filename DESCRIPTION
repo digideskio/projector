@@ -1,0 +1,8 @@
+Package: projector
+Title: Project organizer
+Version: 0.0.0.9000
+Authors@R: person("Matti", "Vuorre", email = "mv2521@columbia.edu", role = c("aut", "cre"))
+Description: Tools to help organize projects
+Depends: R (>= 3.1.2)
+License: GNU GENERAL PUBLIC LICENSE v2
+LazyData: true

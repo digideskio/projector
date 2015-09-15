@@ -1,2 +1,2 @@
 # projector
-r package for project management
+r package for organizing and managing projects
