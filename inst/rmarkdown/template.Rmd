@@ -1,0 +1,27 @@
+---
+title: "Template report with Word output"
+author: "Author"
+date: "2015"
+output:
+  word_document:
+    fig_caption: yes
+    reference_docx: ../../common/word_template.docx
+bibliography: ../../common/bibliography.bib
+---
+
+```{r, echo=F, warning=FALSE}
+library(knitr)
+read_chunk('../analysis/script.R')
+```
+
+This template produces a manuscript using the analysis script located in the analysis folder.
+
+```{r load_data}
+```
+
+Then a plot
+
+```{r plot_data, fig.height=3, fig.width=4}
+```
+
+# References
