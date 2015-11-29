@@ -1,8 +1,6 @@
-## ---- load_data ----
+# Matti Vuorre (mv2521@columbia.edu)
 
-x <- 1:100
-y <- x + rnorm(100)
 
-## ---- plot_data ----
+# setup -------------------------------------------------------------------
 
-plot(x, y)
+library(ggplot2)
