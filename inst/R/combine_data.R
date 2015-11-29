@@ -1,8 +1,6 @@
 # Concatenate multiple data files
 
 data_folder <- "../data/"
-root_name <- "" # Naming convention for data files to read
-
 this_data = data.frame(NULL)
 for (fn in list.files(data_folder)){
     print(fn)
@@ -14,5 +12,4 @@ for (fn in list.files(data_folder)){
                print(paste(file_name, "does not exist.")))
     }
 }
-
 write.csv(this_data, "combined_data.csv")
